@@ -2,7 +2,14 @@ body {
     font-family: "Open Sans", sans-serif;
     margin: auto;
     justify-content: center;
-    background-color: #e9d8a6;
+    background-image: url('briks.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+    
 }
 #profile-pic {
     height: 500px;
