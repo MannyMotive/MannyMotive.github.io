@@ -1,5 +1,50 @@
-body, h1 {
-    display: flex;
-    margin:  auto;
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: auto;
     justify-content: center;
-} 
+    background-color: #e9d8a6;
+}
+nav {
+   display: flex;
+   position:fixed;
+   align-items: center;
+   padding: 10px;
+   background-color: #005f73;
+   z-index: 5;
+   width: 100%;
+
+}
+
+.nav-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+    padding: 10px;
+    color: #94D2BD;
+}
+
+.nav-buttons {
+    padding: 10px;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 500px;
+    text-decoration: underline;
+
+}
+
+.profile {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    height: 800px;
+    width: 800px;
+    padding-top: 100px;
+
+}
