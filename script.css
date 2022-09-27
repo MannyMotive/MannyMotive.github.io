@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+
 body {
     /* font-family: "Open Sans", sans-serif; */
     
-    font-family: 'Poor Story', cursive;
+    /* font-family: 'Poor Story', cursive; */
+    font-family: "Nunito Sans", sans-serif;
     margin: auto;
     background-image: url('briks.jpg');
     background-repeat: no-repeat;
@@ -12,6 +16,40 @@ body {
     
     
 }
+
+
+ul {
+  margin: 5%;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 25px 0;
+  border-radius: 25px;
+  border: 0.1px solid #099FFF;
+  background-color: #18181B;
+  box-shadow: 0 4px 8px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+li:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #00FFFF;
+  padding-bottom: 1%;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+
+li:hover:after {
+  transform: scaleX(1);
+}
 /* #profile-pic {
     height: 350px;
     width: 300px;
@@ -19,7 +57,7 @@ body {
     border: 5px solid #3B3C37;
   
 } */
-nav {
+/* nav {
    display: flex;
    position:fixed;
    justify-content: space-around;
@@ -27,11 +65,11 @@ nav {
    z-index: 5;
    width: 100%;  
 
-}
+} */
 
 
 
-a {
+/* a {
   color: rgb(255, 250, 240);
   text-decoration: none;
 }
@@ -40,17 +78,13 @@ a:hover {
   color: red;
   cursor: pointer;
 }
- 
+  */
 
-.nav-items {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+/* .nav-items {
+  
+} */
 
-    color: rgb(255, 250, 240);
-}
-
-.nav-buttons {
+/* .nav-buttons {
    margin-left: 100px;
    margin-right: 100px;
    padding-left: 30px;
@@ -58,8 +92,17 @@ a:hover {
    text-align: center;
    width: 150px;
    font-size: 1.5rem;
-  
+}
+   */
     
+
+
+.nav-buttons:after {
+  display: block;
+}
+
+.nav-buttons:hover:after {
+  transform: scaleX(1);
 }
 
 
