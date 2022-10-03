@@ -267,13 +267,38 @@ h2 {
 }
 
 p {
-  margin-top: 100px;
-  margin-left: -50px;
-    width: 500px;
+  /* margin-top: 100px;
+  margin-left: -50px; */
+    /* width: 500px; */
     font-size: 1.5rem;
     color: rgb(255, 250, 240);
 
 
+}
+
+#about-me  p {
+  margin-top: 100px;
+  max-width: 500px;
+  margin-left: -50px;
+  
+}
+
+#projects  p {
+  margin-top: 100px;
+  max-width: 500px;
+ 
+  
+}
+
+
+h2 {
+  white-space: nowrap;
+}
+
+h3 {
+  white-space: nowrap;
+  font-size: 1.5rem;
+  color: rgb(255, 250, 240);
 }
 
 li img {
